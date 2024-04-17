@@ -1,0 +1,108 @@
+/* Basic styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("1788221.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #fff; /* Set text color to white */
+  }
+  
+  a {
+    color: #1e88e5;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  
+  header,
+  section,
+  footer {
+    margin-bottom: 40px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff; /* Set heading color to white */
+  }
+  
+  p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #fff; /* Set paragraph color to white */
+  }
+  
+  figure {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+    border-radius: 8px;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    opacity: 0.9;
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 8px;
+    color: #ccc; /* Set caption color to a lighter shade */
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #ccc; /* Set footer text color to a lighter shade */
+    margin-top: 40px;
+  }
+  
+  /* Navigation (optional) */
+  
+  nav {
+    background-color: #333; /* Dark background color for navigation */
+    padding: 10px 20px;
+    border-bottom: 1px solid #222; /* Darker border color for navigation */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff; /* Set navigation link color to white */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
